@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sumanth Reddy Burugula | Resume</title>
+    <style>
+      :root {
+        --bg: #f5f7fb;
+        --paper: #ffffff;
+        --text: #1f2937;
+        --muted: #4b5563;
+        --line: #dfe7f1;
+        --accent: #1f4e79;
+        --accent-2: #dbeafe;
+        --chip: #eef4ff;
+      }
+
+      * { box-sizing: border-box; }
+
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.5;
+      }
+
+      .page {
+        max-width: 1100px;
+        margin: 32px auto;
+        background: var(--paper);
+        box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+        border: 1px solid var(--line);
+      }
+
+      .header {
+        background: linear-gradient(135deg, #0f172a, #1f4e79);
+        color: #fff;
+        padding: 28px 40px 20px;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: 2.25rem;
+        letter-spacing: 0.02em;
+      }
+
+      .contact {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 14px 18px;
+        margin-top: 10px;
+        font-size: 0.96rem;
+      }
+
+      .contact a {
+        color: #dbeafe;
+        text-decoration: none;
+      }
+
+      .content {
+        padding: 28px 40px 36px;
+      }
+
+      section {
+        margin-bottom: 26px;
+      }
+
+      h2 {
+        margin: 0 0 12px;
+        font-size: 1.1rem;
+        color: var(--accent);
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        border-bottom: 2px solid var(--line);
+        padding-bottom: 7px;
+      }
+
+      .job {
+        margin-bottom: 18px;
+      }
+
+      .job-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 12px;
+        flex-wrap: wrap;
+        margin-bottom: 4px;
+      }
+
+      .job-company {
+        font-weight: 700;
+        font-size: 1.04rem;
+      }
+
+      .job-role {
+        font-weight: 600;
+        color: var(--text);
+      }
+
+      .job-dates {
+        color: var(--muted);
+        font-size: 0.95rem;
+      }
+
+      ul {
+        margin: 8px 0 0 18px;
+        padding: 0;
+      }
+
+      li {
+        margin-bottom: 6px;
+      }
+
+      .education-row, .project-row {
+        margin-bottom: 12px;
+      }
+
+      .project-title {
+        font-weight: 700;
+      }
+
+      .project-tech {
+        color: var(--muted);
+        font-style: italic;
+      }
+
+      .skills-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+
+      .skill {
+        background: var(--chip);
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        padding: 8px 12px;
+        font-size: 0.95rem;
+      }
+
+      @media (max-width: 700px) {
+        .page { margin: 0; }
+        .header, .content { padding-left: 20px; padding-right: 20px; }
+        h1 { font-size: 1.9rem; }
+        .job-header { display: block; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <h1>SUMANTH REDDY BURUGULA</h1>
+        <div class="contact">
+          <span>Sumanth.burugula@gmail.com</span>
+          <a href="https://www.linkedin.com/in/sumanth-reddy-burugula/" target="_blank" rel="noopener noreferrer">www.linkedin.com/in/sumanth-reddy-burugula</a>
+          <a href="https://sumanthburugula.netlify.app/" target="_blank" rel="noopener noreferrer">https://sumanthburugula.netlify.app/</a>
+        </div>
+      </header>
+
+      <main class="content">
+        <section>
+          <h2>Work Experience</h2>
+
+          <div class="job">
+            <div class="job-header">
+              <div>
+                <span class="job-company">Orion Innovations (Fiserv)</span><br />
+                <span class="job-role">Software Development Engineer I</span>
+              </div>
+              <span class="job-dates">Jan 2025 - Present</span>
+            </div>
+            <ul>
+              <li>Developed Python data-processing pipelines using Pandas and NumPy to extract, clean, transform, and validate high-volume transaction datasets before downstream analytics and application services.</li>
+              <li>Built Python-based data validation and reconciliation utilities to compare source transactions with processed API responses, identify missing records, field mismatches, and generate validation reports.</li>
+              <li>Developed machine-learning workflows using Python and scikit-learn to preprocess data, engineer features, train classification models, and evaluate model performance using precision, recall, and confusion matrices.</li>
+              <li>Exposed Python AI/ML inference functionality through REST APIs, allowing Java backend services to submit transaction features and receive structured model predictions and confidence information.</li>
+              <li>Built and maintained AWS-based backend workflows using Lambda and cloud services for automated data processing and application integration.</li>
+              <li>Supported CI/CD pipelines for automated build, testing, validation, and deployment of backend applications across development and production environments.</li>
+              <li>Developed monitoring and observability solutions using Splunk, application logs, metrics, and operational dashboards to identify failures and improve production reliability.</li>
+              <li>Developed SQL and DB2 queries to retrieve historical transaction data used for validation, feature generation, and reconciliation with application results.</li>
+              <li>Developed Generative AI prototypes using Python and LLM APIs, integrating model capabilities into backend applications for intelligent information retrieval.</li>
+              <li>Used Devin AI and Claude Code as AI-assisted development tools to accelerate implementation, debugging, refactoring, and validation across multi-step software engineering tasks.</li>
+              <li>Developed Java Spring Boot REST APIs to receive transaction requests, apply business validations, invoke downstream services, and return structured JSON responses.</li>
+              <li>Built UI components to display Python/AI-ML processing results returned through backend APIs, including validation results, model scores, and confidence indicators.</li>
+              <li>Built reusable React components for transaction tables, filtering, status indicators, detail panels, and API error notifications using TypeScript, HTML, and CSS.</li>
+            </ul>
+          </div>
+
+          <div class="job">
+            <div class="job-header">
+              <div>
+                <span class="job-company">Northampton Community College</span><br />
+                <span class="job-role">Assistant Professor Computer Science</span>
+              </div>
+              <span class="job-dates">Sep 2024 - Dec 2024</span>
+            </div>
+            <ul>
+              <li>Designed hands-on Python programming assignments covering data processing, automation, file handling, algorithms, and object-oriented development.</li>
+              <li>Guided students in building end-to-end applications using Python and Java with emphasis on clean code, debugging, testing, and maintainable architecture.</li>
+              <li>Demonstrated data structures and algorithms in Python, Java, and C++, including arrays, linked lists, stacks, queues, trees, searching, and sorting.</li>
+              <li>Introduced students to REST APIs, JSON processing, database connectivity, and backend application development through practical exercises.</li>
+              <li>Mentored students in debugging, algorithm design, code optimization, object-oriented principles, and software engineering best practices.</li>
+            </ul>
+          </div>
+
+          <div class="job">
+            <div class="job-header">
+              <div>
+                <span class="job-company">NTT DATA Global Services (National Life Group)</span><br />
+                <span class="job-role">Software Development Engineer I</span>
+              </div>
+              <span class="job-dates">Dec 2020 - Jul 2022</span>
+            </div>
+            <ul>
+              <li>Developed and maintained enterprise applications using Java 8+, Spring Boot, REST APIs, and microservices supporting annuity and life-insurance business processes.</li>
+              <li>Designed scalable backend services integrating application services with relational databases and downstream enterprise systems.</li>
+              <li>Developed Python utilities and automation scripts for data processing, validation, operational tasks, and application support workflows.</li>
+              <li>Built event-driven and serverless workflows using AWS Lambda for automation and unpredictable workloads.</li>
+              <li>Developed batch-processing workflows using Java and Python incorporating validation, exception handling, and failure recovery.</li>
+              <li>Optimized Java application and database processing logic, reducing key operation execution time by approximately 40%.</li>
+              <li>Designed relational database schemas and implemented JDBC/SQL data-access components using MySQL.</li>
+              <li>Built automated unit and integration tests using JUnit to improve reliability and reduce regression defects.</li>
+              <li>Supported CI/CD workflows using Maven/Gradle and Git for build, testing, and deployment.</li>
+              <li>Triaged production issues by analyzing logs, tracing service interactions, debugging Java/Python code, and resolving integrity problems.</li>
+              <li>Collaborated with product owners, QA engineers, and stakeholders in Agile/Scrum environments to deliver production enhancements.</li>
+            </ul>
+          </div>
+
+          <div class="job">
+            <div class="job-header">
+              <div>
+                <span class="job-company">ZSoft Solutions</span><br />
+                <span class="job-role">Software Intern</span>
+              </div>
+              <span class="job-dates">May 2019 - Aug 2019</span>
+            </div>
+            <ul>
+              <li>Developed modular backend application components using Java/J2EE, JDBC, SQL, and object-oriented programming principles.</li>
+              <li>Implemented database integration and query-processing functionality using JDBC and SQL for reliable application data access.</li>
+              <li>Developed Python scripts for data processing, automation, and testing tasks.</li>
+              <li>Participated in application testing, debugging, technical documentation, and production support activities within an Agile team.</li>
+            </ul>
+          </div>
+        </section>
+
+        <section>
+          <h2>Education</h2>
+          <div class="education-row">
+            <strong>Missouri University of Science and Technology</strong> — Master of Science in Computer Science, May 2024
+          </div>
+          <div class="education-row">
+            <strong>Gitam School of Technology</strong> — Bachelor of Technology in Computer Science, May 2020
+          </div>
+        </section>
+
+        <section>
+          <h2>Project Experience</h2>
+          <div class="project-row">
+            <div class="project-title">Clinical AI Suspecting Platform</div>
+            <div class="project-tech">Python, FastAPI, RAG, React, TypeScript, Docker, CI/CD</div>
+            <ul>
+              <li>Developed a full-stack AI-assisted clinical suspecting platform using Python, FastAPI, React, and TypeScript to analyze synthetic clinical records and surface evidence-backed documentation gaps.</li>
+              <li>Designed a modular Retrieval-Augmented Generation (RAG) architecture with vector-style retrieval, structured LLM integration, and deterministic fallback processing for reliable execution without external model dependencies.</li>
+              <li>Implemented agentic, tool-driven workflows that retrieve context, generate structured candidate findings, and apply validation guardrails before returning results.</li>
+              <li>Built a provider-agnostic LLM integration layer supporting structured JSON outputs, configurable model endpoints, evidence validation, and safe fallback behavior.</li>
+              <li>Created a responsive React and TypeScript frontend for selecting patient records, triggering analysis workflows, and reviewing confidence scores and supporting evidence.</li>
+            </ul>
+          </div>
+
+          <div class="project-row">
+            <div class="project-title">Distributed Secure Messaging Platform</div>
+            <div class="project-tech">Python, FastAPI, WebSockets, REST APIs, Docker</div>
+            <ul>
+              <li>Developed a distributed real-time messaging platform using Python, FastAPI, REST APIs, and WebSockets to demonstrate scalable backend and event-driven communication patterns.</li>
+              <li>Designed a modular backend architecture separating API handling, WebSocket connection management, message delivery, and persistence concerns.</li>
+              <li>Implemented real-time WebSocket connection management and REST-based message creation and conversation history APIs.</li>
+              <li>Applied asynchronous programming, object-oriented design, and failure-handling patterns to support concurrent client connections and extensible services.</li>
+            </ul>
+          </div>
+        </section>
+
+        <section>
+          <h2>Skills</h2>
+          <div class="skills-grid">
+            <div class="skill">Python</div>
+            <div class="skill">Java</div>
+            <div class="skill">C</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">SQL</div>
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">Spring Boot</div>
+            <div class="skill">RESTful APIs</div>
+            <div class="skill">J2EE</div>
+            <div class="skill">JDBC</div>
+            <div class="skill">React</div>
+            <div class="skill">AWS Lambda</div>
+            <div class="skill">CI/CD</div>
+            <div class="skill">Git</div>
+            <div class="skill">Maven</div>
+            <div class="skill">Linux</div>
+            <div class="skill">DB2</div>
+            <div class="skill">MySQL</div>
+            <div class="skill">MongoDB</div>
+            <div class="skill">Relational Databases</div>
+            <div class="skill">Data Processing</div>
+            <div class="skill">ETL</div>
+            <div class="skill">Data Pipelines</div>
+            <div class="skill">Generative AI</div>
+            <div class="skill">Large Language Models</div>
+            <div class="skill">RAG</div>
+            <div class="skill">Agentic AI</div>
+            <div class="skill">Splunk</div>
+            <div class="skill">Application Logging</div>
+            <div class="skill">Monitoring</div>
+            <div class="skill">Performance Optimization</div>
+            <div class="skill">Distributed Systems</div>
+            <div class="skill">JUnit</div>
+            <div class="skill">Testing</div>
+            <div class="skill">Power BI</div>
+            <div class="skill">Tableau</div>
+          </div>
+        </section>
+
+        <section>
+          <h2>Certifications</h2>
+          <ul>
+            <li>ISO Certified C with Data Structures</li>
+            <li>Core Java (J2SE)</li>
+            <li>NTT DATA Internal Business Analyst Certification - Level 1</li>
+            <li>NTT DATA Certified Test Engineer</li>
+            <li>Microsoft Azure AI Fundamentals</li>
+          </ul>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
